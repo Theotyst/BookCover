@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>BookCovers</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/colpick.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link href="css/style.css" rel="stylesheet">
+ </head>
+ <body>
+		 	
+	<div class="container-fluid">
+		
+		<div class="row">
+			<div class="col-xs-4">
+				<div class="row title">
+					<h1>Menu</h1>
+				</div>
+				<div class="row objects"></div>
+				<div class="row controls">
+					<div class="colorpicker"></div>
+					<div class="col-xs-6 positionMenu">
+						<div class="title">Position</div>
+						<div class="sliderPosX"></div>
+						<div class="sliderPosY"></div>
+						<div class="sliderPosZ"></div>
+					</div>
+					<div class="col-xs-6 rotationMenu">
+						<div class="title">Rotation</div>
+						<div class="sliderRotX"></div>
+						<div class="sliderRotY"></div>
+						<div class="sliderRotZ"></div>
+					</div>
+					<div class="col-xs-6 sizeMenu">
+						<div class="title">Size</div>
+						<div class="sliderSizeX"></div>
+						<div class="sliderSizeY"></div>
+						<div class="sliderSizeZ"></div>
+					</div>
+					<div class="remove">Remove</div>
+					<div class="add">Add</div>
+					<div class="testUpdate">Update texture</div>
+				</div>
+			</div>
+			<div class="col-xs-8 zone">	
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 msg">
+			</div>
+		</div>
+	
+	<div class="row">
+		<canvas id="myCanvas" width="1024px" height="1024px"></canvas>
+	</div>
+
+	<script src="js/jquery.min.js"></script> 
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/socket.io.js"></script>
+	<script src="js/three.min.js"></script> 
+	<script src="js/OrbitControls.js"></script>
+	<script src="js/colpick.js" type="text/javascript"></script>
+  	<script src="js/jquery-ui.min.js"></script>
+   	<script src="js/socket.js"></script>
+
+   </body>
+
+</html>
+
+
